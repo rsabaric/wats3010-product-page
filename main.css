@@ -7,13 +7,12 @@
     color: green;
 }
 
-.header {
-    background-color: pink;
-    padding: 50px;
+#about {
+    background:green;
 }
 
-.who we are {
-    background:green;
+#features {
+    background:pink;
 }
 
 #footer {
