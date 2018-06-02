@@ -7,13 +7,13 @@
     color: green;
 }
 
-#header {
+.header {
     background-color: pink;
     padding: 50px;
 }
 
-#who we are {
-    background-color:green;
+.who we are {
+    background:green;
 }
 
 #footer {
