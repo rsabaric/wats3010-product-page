@@ -1,18 +1,31 @@
 /* Styles for Product Page Customization */
 /* NOTE: Do not edit the Bootstrap CSS files. */
 
-#body {
-    padding-top: 30px;
-    padding-bottom: 20px;
-    color: green;
+body {
+    position: relative;
 }
 
+.navbar nav{
+    display: block;
+}
 #about {
     background:green;
 }
 
 #features {
     background:pink;
+}
+
+#customer {
+    background:blue;
+}
+
+#contact {
+    background: purple;
+    padding-bottom: 10px;
+}
+#therest {
+    background: green;
 }
 
 #footer {
