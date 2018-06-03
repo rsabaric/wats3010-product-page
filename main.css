@@ -10,10 +10,6 @@ body {
     position: relative;
 }
 
-.div {
-    border: 1px solid black;
-}
-
 .col-sm-6 {
     padding: 100px;
 }
@@ -21,15 +17,20 @@ body {
 .navbar nav{
     display: block;
 }
+
+
+.navbar-expand-sm {
+    justify-content: flex-end;
+}
+
 #about {
     background:green;
+    padding-top: 1rem;
 }
 
 #features {
     padding-bottom: 7.5rem;
     padding-top: 1rem;
-    border-bottom: 1px solid black;
-    border-top: 1px solid black;
 }
 
 .h-100 {
@@ -37,7 +38,7 @@ body {
 }
 
 #customer {
-
+    padding-top: 1rem;
 }
 
 p.grid-text {
@@ -54,13 +55,12 @@ p.grid-text {
 }
 
 #contact {
+    padding-top: 1rem;
     padding-bottom: 10px;
 }
 
 #therest {
     background: green;
+    padding-top: 1rem;
 }
 
-#footer {
-    background:yellow;
-}
