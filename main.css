@@ -5,6 +5,14 @@ body {
     position: relative;
 }
 
+.div {
+    border: 1px solid black;
+}
+
+.col-sm-6 {
+    padding: 100px;
+}
+
 .navbar nav{
     display: block;
 }
@@ -21,9 +29,9 @@ body {
 }
 
 #contact {
-    background: purple;
     padding-bottom: 10px;
 }
+
 #therest {
     background: green;
 }
