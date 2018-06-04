@@ -42,6 +42,13 @@ img:hover {
     display: block;
 }
 
+/*header and footer */
+
+.bg-dark {
+    background-color: #343a40!important;
+    opacity: .7;
+}
+
 /* video */
 
 #video {
@@ -111,7 +118,7 @@ p.grid-text {
 #therest {
     padding-top: 1rem;
     background-color: gray;
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 
@@ -131,5 +138,6 @@ p.m-0.text-center.text-white {
 }
 
 address {
-    
+    color: white;
+    display: table-footer-group;
 }
