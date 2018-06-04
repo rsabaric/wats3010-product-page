@@ -9,8 +9,33 @@ body {
     position: relative;    
 }
 
+/* unvisited link */
+a:link {
+    color: white;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+}
+
+/* mouse over link */
+a:hover {
+    color: #337ab7;
+}
+
+/* selected link */
+a:active {
+    color: black;
+}
+
 .col-sm-6 {
     padding: 100px;
+}
+
+img:hover {
+    opacity: .8;
+    filter: alpha(opacity=1); 
 }
 
 .navbar nav{
@@ -27,12 +52,12 @@ body {
 
 .overlay-desc {
   background: rgba(0,0,0,0);
-  position:;
 }
 
 h1 {
-  color: blue;
-  font-family: 'Nobile', sans-serif;
+  color: grey;
+  font-family: 'Arial', sans-serif;
+  font-size:4rem;
 
 }
 
@@ -68,7 +93,10 @@ p.grid-text {
 .col-sm-6 {
     padding: 100px;
     background: lightgrey;
+    opacity: .8;
+    filter: alpha(opacity=1); 
 }
+
 
 #contact {
     padding-top: 1rem;
@@ -76,7 +104,17 @@ p.grid-text {
 }
 
 #therest {
-    background: green;
     padding-top: 1rem;
+}
+
+
+.carousel-item {
+  height: 50vh;
+  min-height: 150px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
