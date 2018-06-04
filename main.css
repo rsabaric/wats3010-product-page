@@ -5,9 +5,8 @@
     width: 100%;
 }
 
-
 body {
-    position: relative;
+    position: relative;    
 }
 
 .col-sm-6 {
@@ -18,13 +17,30 @@ body {
     display: block;
 }
 
+/* video */
+
+#video {
+  width: 100%    !important;
+  height: auto   !important;
+  position: relative;
+}
+
+.overlay-desc {
+  background: rgba(0,0,0,0);
+  position: absolute;
+}
+
+h1 {
+  color: blue;
+  font-family: 'Nobile', sans-serif;
+
+}
 
 .navbar-expand-sm {
     justify-content: flex-end;
 }
 
 #about {
-    background:green;
     padding-top: 1rem;
 }
 
