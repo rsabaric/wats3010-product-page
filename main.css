@@ -110,7 +110,6 @@ p.grid-text {
 .col-sm-6 {
     padding: 100px;
     background: lightgrey;
-    opacity: .8;
     filter: alpha(opacity=1); 
 }
 
