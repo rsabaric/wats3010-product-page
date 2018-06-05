@@ -38,8 +38,14 @@ img:hover {
     filter: alpha(opacity=1); 
 }
 
+/* Navigation */
+
 .navbar nav{
     display: block;
+}
+
+.navbar-expand-sm.bg-dark.navbar-dark.fixed-top {
+    padding: 4px;
 }
 
 /*header and footer */
