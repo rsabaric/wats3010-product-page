@@ -145,4 +145,5 @@ p.m-0.text-center.text-white {
 address {
     color: white;
     display: table-footer-group;
+    padding-left: 92px;
 }
