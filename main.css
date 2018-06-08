@@ -8,7 +8,7 @@
 body {
     position: relative;    
     /* The image used */
-    background: url(images/woodshav3.jpg);
+    
 
     /* Full height */
     height: 20%; 
@@ -85,14 +85,20 @@ h1 {
     justify-content: flex-end;
 }
 
+.header {
+ background: url(images/woodshav3.jpg);
+ }
+ 
 #about {
     padding-top: 1rem;
     padding-bottom: 1rem;
+    
 }
 
 #features {
     padding-bottom: 1rem;
     padding-top: 1rem;
+   
 }
 
 .card-body {
