@@ -8,10 +8,10 @@
 body {
     position: relative;    
     /* The image used */
-    background: url(images/woodshavings.jpg);
+    background: url(images/woodshav3.jpg);
 
     /* Full height */
-    height: 75%; 
+    height: 20%; 
 
     /* Center and scale the image nicely */
     background-position: center;
@@ -150,6 +150,7 @@ p.grid-text {
   -o-background-size: cover;
   background-size: cover;
   padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 /* footer */
 
