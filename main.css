@@ -7,6 +7,16 @@
 
 body {
     position: relative;    
+    /* The image used */
+    background: url(images/woodshavings.jpg);
+
+    /* Full height */
+    height: 75%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* unvisited link */
@@ -29,9 +39,7 @@ a:active {
     color: black;
 }
 
-.col-sm-6 {
-    padding: 100px;
-}
+
 
 img:hover {
     opacity: .8;
@@ -79,6 +87,7 @@ h1 {
 
 #about {
     padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 #features {
@@ -102,6 +111,7 @@ h1 {
 
 #customer {
     padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 p.grid-text {
@@ -118,7 +128,6 @@ p.grid-text {
     border: solid grey 1px;
     filter: alpha(opacity=1); 
 }
-
 
 #contact {
     padding-top: 1rem;
@@ -140,6 +149,7 @@ p.grid-text {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  padding-top: 1rem;
 }
 /* footer */
 
