@@ -66,19 +66,23 @@ img:hover {
 /* video */
 
 #video {
-  width: 100%    !important;
-  height: auto   !important;
-  position: relative;
+    width: 100%    !important;
+    height: auto   !important;
+    position: relative;
 }
 
 .overlay-desc {
-  background: rgba(0,0,0,0);
+    background: rgba(0,0,0,0);
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 h1 {
-  color: grey;
-  font-family: 'Arial', sans-serif;
-  font-size:4rem;
+  color: white;
+  font-family: 'Helvetica', sans-serif;
+  font-size:7rem;
 }
 
 .navbar-expand-sm {
