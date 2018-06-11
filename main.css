@@ -77,6 +77,8 @@ img:hover {
     top: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
+    padding: 15px;
+    border-radius: 5px;
 }
 
 h1 {
