@@ -135,6 +135,14 @@ p.grid-text {
     filter: alpha(opacity=1); 
 }
 
+button.btn.btn-secondary {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%); 
+}
+
 #contact {
     padding-top: 1rem;
     padding-bottom: 1rem;
