@@ -3,17 +3,17 @@
 
 body {
     position: relative;    
-    /* The image used */
-    
-    /* Full height */
-    height: 100%; 
-
-    /* Center and scale the image nicely */
+    height: auto;
+    width: 100%;
     background-position: bottom left;
     background-repeat: no-repeat;
     background-size: auto;
     background-image: url(images/woodshav3.jpg);
     
+}
+
+a {
+    padding: 4px;
 }
 
 /* unvisited link */
