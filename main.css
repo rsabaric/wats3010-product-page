@@ -11,12 +11,14 @@ body {
     
 
     /* Full height */
-    height: 20%; 
+    height: 100%; 
 
     /* Center and scale the image nicely */
-    background-position: center;
+    background-position: ;
     background-repeat: no-repeat;
     background-size: cover;
+    background-image: url(images/woodshav3.jpg);
+    
 }
 
 /* unvisited link */
@@ -92,18 +94,25 @@ h1 {
 }
 
 .header {
- background: url(images/woodshav3.jpg);
+    background: white;
+ 
  }
  
 #about {
     padding-top: 1rem;
     padding-bottom: 1rem;
+    background: white;
     
+}
+
+hr {
+    border-color: white
 }
 
 #features {
     padding-bottom: 1rem;
     padding-top: 1rem;
+    background: white;
    
 }
 
@@ -124,6 +133,7 @@ h1 {
 #customer {
     padding-top: 1rem;
     padding-bottom: 1rem;
+    background: white;
 }
 
 p.grid-text {
@@ -152,12 +162,13 @@ button.btn.btn-secondary {
 #contact {
     padding-top: 1rem;
     padding-bottom: 1rem;
+    background: white;
 }
 
 #therest {
     padding-top: 1rem;
     background-color: gray;
-    opacity: 0.9;
+
 }
 
 
