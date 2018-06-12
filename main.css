@@ -1,22 +1,17 @@
 /* Styles for Product Page Customization */
 /* NOTE: Do not edit the Bootstrap CSS files. */
 
-@media (min-width:320px) {
-    width: 100%;
-}
-
 body {
     position: relative;    
     /* The image used */
     
-
     /* Full height */
     height: 100%; 
 
     /* Center and scale the image nicely */
-    background-position: ;
+    background-position: bottom left;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto;
     background-image: url(images/woodshav3.jpg);
     
 }
@@ -40,8 +35,6 @@ a:hover {
 a:active {
     color: black;
 }
-
-
 
 img:hover {
     opacity: .8;
@@ -98,16 +91,13 @@ h1 {
  
  }
  
-#about {
+ #about {
     padding-top: 1rem;
     padding-bottom: 1rem;
-    background: white;
-    
+    background: white;    
 }
 
-hr {
-    border-color: white;
-}
+
 
 #features {
     padding-bottom: 1rem;
