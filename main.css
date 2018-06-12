@@ -113,7 +113,7 @@ hr {
     padding-bottom: 1rem;
     padding-top: 1rem;
     background: white;
-   
+    border: 1px solid rgba(0,0,0,.1);
 }
 
 .card-body {
@@ -194,4 +194,32 @@ address {
     color: white;
     display: table-footer-group;
     padding-left: 92px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+
+@media (min-width:400px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media (min-width: 768px) {
+  
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media (min-width: 992px) {
+  
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media(min-width: 1200px) {
+   
 }
