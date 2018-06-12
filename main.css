@@ -106,7 +106,7 @@ h1 {
 }
 
 hr {
-    border-color: white
+    border-color: white;
 }
 
 #features {
@@ -167,7 +167,7 @@ button.btn.btn-secondary {
 
 #therest {
     padding-top: 1rem;
-    background-color: gray;
+    background-color: rgba(120, 120, 120,.9);
 
 }
 
