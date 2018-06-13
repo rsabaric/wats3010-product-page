@@ -1,5 +1,32 @@
 /* Styles for Product Page Customization */
 /* NOTE: Do not edit the Bootstrap CSS files. */
+/* Extra small devices (phones, 600px and down) */
+
+@media (min-width:375px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media (min-width: 768px) {
+  
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media (min-width: 992px) {
+  
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media(min-width: 1200px) {
+   
+}
 
 body {
     position: relative;    
@@ -84,16 +111,12 @@ h1 {
   font-size:7rem;
 }
 
-h2 {
-    color: 
-}
 .navbar-expand-sm {
     justify-content: flex-end;
 }
 
 .header {
-    background: white;
- 
+    background: white; 
  }
  
  #about {
@@ -101,8 +124,6 @@ h2 {
     padding-bottom: 1rem;
     background: white;    
 }
-
-
 
 #features {
     padding-bottom: 1rem;
@@ -146,7 +167,6 @@ p.grid-text {
     filter: alpha(opacity=1); 
 }
 
-
 #contact {
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -158,7 +178,6 @@ p.grid-text {
     background-color: rgba(120, 120, 120,.9);
 
 }
-
 
 .carousel-item {
   height: 50vh;
@@ -189,30 +208,3 @@ address {
     padding-left: 50px;
 }
 
-/* Extra small devices (phones, 600px and down) */
-
-@media (min-width:375px) {
-
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-
-@media (min-width: 600px) {
-
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-
-@media (min-width: 768px) {
-  
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media (min-width: 992px) {
-  
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media(min-width: 1200px) {
-   
-}
