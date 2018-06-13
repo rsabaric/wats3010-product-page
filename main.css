@@ -8,8 +8,7 @@ body {
     background-position: bottom left;
     background-repeat: no-repeat;
     background-size: auto;
-    background-image: url(images/woodshav3.jpg);
-    
+    background-image: url(images/woodshav3.jpg);   
 }
 
 a {
@@ -39,6 +38,9 @@ a:active {
 img:hover {
     opacity: .8;
     filter: alpha(opacity=1); 
+}
+.btn:hover {
+    background-color: #396060;
 }
 
 /* Navigation */
@@ -78,10 +80,13 @@ img:hover {
 }
 
 h1 {
-  color: darkblue;
+  color: #396060;
   font-size:7rem;
 }
 
+h2 {
+    color: 
+}
 .navbar-expand-sm {
     justify-content: flex-end;
 }
@@ -141,13 +146,6 @@ p.grid-text {
     filter: alpha(opacity=1); 
 }
 
-button.btn.btn-secondary {
-    position: absolute;
-    top: 90%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%); 
-}
 
 #contact {
     padding-top: 1rem;
