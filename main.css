@@ -180,15 +180,20 @@ p.m-0.text-center.text-white {
     font-size: 15px;
 }
 
+copyright {
+    padding-left: 5px;
+    padding-top: 115px;
+}
+
 address {
     color: white;
     display: table-footer-group;
-    padding-left: 92px;
+    padding-left: 50px;
 }
 
 /* Extra small devices (phones, 600px and down) */
 
-@media (min-width:599px) {
+@media (min-width:375px) {
 
 }
 
