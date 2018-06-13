@@ -180,8 +180,8 @@ p.grid-text {
 }
 
 .carousel-item {
-  height: 50vh;
-  min-height: 150px;
+  height:350px;
+  width: 450px;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -189,6 +189,16 @@ p.grid-text {
   background-size: cover;
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+.carousel-item active {
+    height:350px;
+    width: 450px
+}
+
+
+#carouselExampleIndicators {
+    width: 450px;
 }
 /* footer */
 
