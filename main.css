@@ -73,12 +73,12 @@ img:hover {
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 15px;
+    padding-top: 1px;
     border-radius: 5px;
 }
 
 h1 {
   color: darkblue;
-  font-family: 'Helvetica', sans-serif;
   font-size:7rem;
 }
 
