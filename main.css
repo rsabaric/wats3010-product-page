@@ -66,6 +66,7 @@ img:hover {
     opacity: .8;
     filter: alpha(opacity=1); 
 }
+
 .btn:hover {
     background-color: #396060;
 }
@@ -80,6 +81,9 @@ img:hover {
     padding: 4px;
 }
 
+#collapsibleNavbar {
+    justify-content: flex-end;
+}
 /*header and footer */
 
 .bg-dark {
