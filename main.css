@@ -1,20 +1,18 @@
 /* Styles for Product Page Customization */
 /* NOTE: Do not edit the Bootstrap CSS files. */
-/* Extra small devices (phones, 600px and down) */
-
-@media (min-width:375px) {
- 
-
-}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 
-@media (max-width: 599px) {
-    h1{
-        font-size:1.5rem;
+@media screen and (max-width: 769px) and (min-width: 576px) {
+   div.overlay-desc {
+       top: 6%;
+   }
+    
+    .overlay-desc h1{
+        font-size: 2rem;
     }
     
-    h2{
+    .overlay-desc h2{
         font-size: 1rem;
     } 
 
@@ -22,25 +20,13 @@
 
 /* Medium devices (landscape tablets, 768px and up) */
 
-@media (min-width: 768px) {
-     h1 {
-        font-size:2rem;
+@media screen and (max-width: 991px) and (min-width: 768px) {
+    div.overlay-desc {
+        top: 7.5%;
     }
-    
-    h2 {
-        font-size: 1rem;
-    }  
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media (min-width: 991px) {
- 
+    .overlay-desc h1 {
+        font-size: 3rem;
     }
-    
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media(min-width: 1200px) {
-   
 }
 
 body {
