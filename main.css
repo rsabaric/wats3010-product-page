@@ -3,12 +3,13 @@
 /* Extra small devices (phones, 600px and down) */
 
 @media (min-width:375px) {
+ 
 
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 
-@media (min-width: 540px) {
+@media (max-width: 599px) {
     h1{
         font-size:1.5rem;
     }
