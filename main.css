@@ -1,6 +1,26 @@
 /* Styles for Product Page Customization */
 /* NOTE: Do not edit the Bootstrap CSS files. */
 
+/* Extra small devices */
+
+@media screen and (max-width: 575px) and (min-width: 320px) {
+    div.overlay-desc {
+        top: 4%;
+    }
+    
+   .overlay-desc h1 {
+        font-size: 1rem;
+    }
+    .overlay-desc h2 {
+        font-size: .75rem;
+    }
+    
+    .btn-lg {
+        font-size: .75rem;
+    }
+    
+}
+
 /* Small devices (portrait tablets and large phones, 600px and up) */
 
 @media screen and (max-width: 769px) and (min-width: 576px) {
